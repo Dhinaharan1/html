@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/AdminLTE.css">
+    <!-- Morris chart -->
+    <link rel="stylesheet" href="plugins/morris/morris.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+      
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+            Dashboard
+            <small>Control panel</small>
+          </h1>
+          <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li class="active">Dashboard</li>
+          </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+          <!-- Main row -->
+          <div class="row">
+            <!-- Left col -->
+            <section class="col-lg-6 connectedSortable">
+				<div class="box box-primary">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Environment Health Check</h3>
+                  <div class="box-tools pull-right">
+                    <!-- <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>-->
+                  </div>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>ANH</th>
+                          <th>JJKK</th>
+                          <th>SH</th>
+                          <th>DVG</th>
+                          <th>HJB</th>
+                          <th>DHS</th>
+                          <th>DHS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><span class="icnNotifig icnNotifigSuccess toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigError toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigWarning toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigSetting toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                        </tr>
+                        <tr>
+                          <td><span class="icnNotifig icnNotifigSuccess toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigError toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigWarning toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigSetting toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess toolTip" data-toggle="tooltip" title="Tooltip Text"></span></td>
+                        </tr>
+						<tr>
+                          <td><span class="icnNotifig icnNotifigSuccess"></span></td>
+                          <td><span class="icnNotifig icnNotifigError"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess"></span></td>
+                          <td><span class="icnNotifig icnNotifigWarning"></span></td>
+                          <td><span class="icnNotifig icnNotifigSetting"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess"></span></td>
+                        </tr>
+						<tr>
+                          <td><span class="icnNotifig icnNotifigSuccess"></span></td>
+                          <td><span class="icnNotifig icnNotifigError"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess"></span></td>
+                          <td><span class="icnNotifig icnNotifigWarning"></span></td>
+                          <td><span class="icnNotifig icnNotifigSetting"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess"></span></td>
+                          <td><span class="icnNotifig icnNotifigSuccess"></span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div><!-- /.table-responsive -->
+                </div><!-- /.box-body -->
+                <!--<div class="box-footer clearfix">
+                  <div class="pull-left mRight20"><span class="pull-left mRight10">Success</span><span class="pull-left icnNotifig icnNotifigSuccess"></span></div>
+                  <div class="pull-left mRight20"><span class="pull-left mRight10">Error</span><span class="pull-left icnNotifig icnNotifigError"></span></div>
+                  <div class="pull-left mRight20"><span class="pull-left mRight10">Warning</span><span class="pull-left icnNotifig icnNotifigWarning"></span></div>
+                  <div class="pull-left mRight20"><span class="pull-left mRight10">Maintenance</span><span class="pull-left icnNotifig icnNotifigSetting"></span></div>
+                </div>--><!-- /.box-footer -->
+				<div class="box-footer no-border">
+                  <div class="row">
+                    <div class="col-xs-12 text-center">
+                      <input type="text" class="knob" data-readonly="true" value="50" data-width="60" data-height="60" data-fgColor="#39CCCC">
+                      <div class="knob-label">Availability(Percentage)</div>
+                    </div><!-- ./col -->
+                  </div><!-- /.row -->
+                </div><!-- /.box-footer -->
+              </div>
+              
+				<div class="box box-primary">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Change Activity</h3>
+                  <div class="box-tools pull-right">
+                    <!-- <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>-->
+                  </div>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>Order ID</th>
+                          <th>Item</th>
+                          <th>Status</th>
+                          <th>Popularity</th>
+                          <th>Popularity</th>
+                          <th>Popularity</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><a href="#">Nulla vel metus scelerisque ante sollicitudin commodo.</a></td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                        </tr>
+						<tr>
+                          <td><a href="#">Nulla vel metus scelerisque ante sollicitudin commodo.</a></td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                        </tr>
+						<tr>
+                          <td><a href="#">Nulla vel metus scelerisque ante sollicitudin commodo.</a></td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                        </tr>
+						<tr>
+                          <td><a href="#">Nulla vel metus scelerisque ante sollicitudin commodo.</a></td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                          <td>Nulla vel metus </td>
+                        </tr>
+						
+                      </tbody>
+                    </table>
+                  </div><!-- /.table-responsive -->
+                </div><!-- /.box-body -->
+              </div>
+			  
+			  <div class="box box-primary">
+                <div class="box-header">
+                  <h3 class="box-title">Service Availability</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <table class="table table-striped">
+                    <tbody><tr>
+                      <th>Task</th>
+                      <th>Progress</th>
+                      <th style="width: 40px">Label</th>
+                    </tr>
+                    <tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                      <td><span class="badge bg-red">55%</span></td>
+                    </tr>
+                    <tr>
+                      <td>Clean database</td>
+                      <td>Nulla vel metus</td>
+                      <td><span class="badge bg-yellow">70%</span></td>
+                    </tr>
+                    <tr>
+                      <td>Cron job running</td>
+                      <td>Nulla vel metus</td>
+                      <td><span class="badge bg-light-blue">30%</span></td>
+                    </tr>
+                    <tr>
+                      <td>Fix and squish bugs</td>
+                      <td>Nulla vel metus</td>
+                      <td><span class="badge bg-green">90%</span></td>
+                    </tr>
+                  </tbody></table>
+                </div><!-- /.box-body -->
+              </div>
+
+            </section><!-- /.Left col -->
+            <!-- right col (We are only adding the ID to make the widgets sortable)-->
+            <section class="col-lg-6 connectedSortable">
+				<!-- TO DO List -->
+              <div class="box box-primary">
+                <div class="box-header with-border">
+                  <i class="ion ion-clipboard"></i>
+                  <h3 class="box-title">Alerts</h3>
+                  <!--<div class="box-tools pull-right">
+                    <ul class="pagination pagination-sm inline">
+                      <li><a href="#">&laquo;</a></li>
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">&raquo;</a></li>
+                    </ul>
+                  </div>-->
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <ul class="todo-list">
+                    <li>
+                      <!-- todo text -->
+                      <span class="text">Alerts</span>
+                      <!-- Emphasis label -->
+                      <small class="label label-danger"><i class="fa fa-clock-o"></i> 2 mins</small>
+                    </li>
+                    <li>
+                      <span class="text">Make the theme responsive</span>
+                    </li>
+                    <li>
+                      <span class="text">Let theme shine like a star</span>
+                    </li>
+                    <li>
+                      <span class="text">Let theme shine like a star</span>
+                    </li>
+                    <li>
+                      <span class="text">Check your messages and notifications</span>
+                    </li>
+                    <li>
+                      <span class="text">Let theme shine like a star</span>
+                    </li>
+					<li>
+                      <span class="text">Let theme shine like a star</span>
+                    </li>
+					<li>
+                      <span class="text">Let theme shine like a star</span>
+                    </li>
+					<li>
+                      <span class="text">Let theme shine like a star</span>
+                    </li>
+                  </ul>
+                </div>
+              </div><!-- /.box -->
+			  
+			  <!-- solid sales graph -->
+              <div class="box box-solid bg-teal-gradient">
+                <div class="box-header">
+                  <i class="fa fa-th"></i>
+                  <h3 class="box-title">Graph</h3>
+                </div>
+                <div class="box-body border-radius-none">
+                  <div class="chart" id="line-chart" style="height: 250px;"></div>
+                </div><!-- /.box-body -->
+                <div class="box-footer no-border">
+                  <div class="row">
+                    <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
+                      <input type="text" class="knob" data-readonly="true" value="20" data-width="60" data-height="60" data-fgColor="#39CCCC">
+                      <div class="knob-label">Mail-Orders</div>
+                    </div><!-- ./col -->
+                    <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
+                      <input type="text" class="knob" data-readonly="true" value="50" data-width="60" data-height="60" data-fgColor="#39CCCC">
+                      <div class="knob-label">Online</div>
+                    </div><!-- ./col -->
+                    <div class="col-xs-4 text-center">
+                      <input type="text" class="knob" data-readonly="true" value="30" data-width="60" data-height="60" data-fgColor="#39CCCC">
+                      <div class="knob-label">In-Store</div>
+                    </div><!-- ./col -->
+                  </div><!-- /.row -->
+                </div><!-- /.box-footer -->
+              </div><!-- /.box -->
+			  
+			  <div class="box box-primary">
+                <div class="box-header">
+                  <h3 class="box-title">Ticket Status</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <table class="table table-striped">
+                    <tbody>
+					<tr>
+                      <th>Task</th>
+                      <th>Progress</th>
+                      <th>Progress</th>
+                    </tr>
+                    <tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+                    <tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+					<tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+					<tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+                  </tbody></table>
+                </div><!-- /.box-body -->
+				<div class="box-footer no-border">
+                  <div class="row">
+                    <div class="col-xs-6 text-center" style="border-right: 1px solid #f4f4f4">
+                      <input type="text" class="knob" data-readonly="true" value="20" data-width="60" data-height="60" data-fgColor="#39CCCC">
+                      <div class="knob-label">Total Count</div>
+                    </div><!-- ./col -->
+                    <div class="col-xs-6 text-center">
+                      <input type="text" class="knob" data-readonly="true" value="50" data-width="60" data-height="60" data-fgColor="#39CCCC">
+                      <div class="knob-label">Agent Count</div>
+                    </div><!-- ./col -->
+                  </div><!-- /.row -->
+                </div><!-- /.box-footer -->
+              </div>
+			  
+            </section><!-- right col -->
+			
+			<section class="col-lg-4 connectedSortable">
+				<div class="box box-primary">
+                <div class="box-header">
+                  <h3 class="box-title">Server Utilization</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <table class="table table-striped">
+                    <tbody>
+					<tr>
+                      <th>Task</th>
+                      <th>Progress</th>
+                      <th>Progress</th>
+                    </tr>
+                    <tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+                    <tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+					<tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+					<tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+                  </tbody></table>
+                </div><!-- /.box-body -->
+              </div>
+            </section>
+			<section class="col-lg-4 connectedSortable">
+				<div class="box box-primary">
+                <div class="box-header">
+                  <h3 class="box-title">Application Utilization</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <table class="table table-striped">
+                    <tbody>
+					<tr>
+                      <th>Task</th>
+                      <th>Progress</th>
+                    </tr>
+                    <tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+                    <tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+					<tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+					<tr>
+                      <td>Update software</td>
+                      <td>Nulla vel metus</td>
+                    </tr>
+                  </tbody></table>
+                </div><!-- /.box-body -->
+              </div>
+            </section>
+			<section class="col-lg-4 connectedSortable">
+				<div class="box box-primary">
+                <div class="box-header">
+                  <h3 class="box-title">Servers In Maintenance</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <table class="table table-striped">
+                    <tbody>
+					<tr>
+                      <th>Progress</th>
+                    </tr>
+                    <tr>
+                      <td>Nulla vel metus</td>
+                    </tr>
+                    <tr>
+                      <td>Nulla vel metus</td>
+                    </tr>
+					<tr>
+                      <td>Nulla vel metus</td>
+                    </tr>
+					<tr>
+                      <td>Nulla vel metus</td>
+                    </tr>
+                  </tbody></table>
+                </div><!-- /.box-body -->
+              </div>
+            </section>
+			
+			
+			
+          </div><!-- /.row (main row) -->
+
+        </section><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+      
+
+     
+    </div><!-- ./wrapper -->
+
+    <!-- jQuery 2.1.4 -->
+    <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Morris.js charts -->
+    <script src="js/raphael-min.js"></script>
+    <script src="plugins/morris/morris.min.js"></script>
+    
+    <!-- jQuery Knob Chart -->
+    <script src="plugins/knob/jquery.knob.js"></script>
+        
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="js/dashboard.js"></script>
+    <!-- AdminLTE  -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
